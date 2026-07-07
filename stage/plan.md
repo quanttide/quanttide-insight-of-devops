@@ -20,6 +20,8 @@
 | `plan doctor` LLM prompt 覆盖 ROADMAP + TODO | `edit_llm` 按文件名切换 prompt；TODO 对应节已 [x] |
 | 补充 `release/audit.rs`、`contract.rs` 测试 | commit `4e3005f` 已补全 |
 
+**根因**：当前工作流缺少 TODO [x] → ROADMAP [x] 的自动同步步骤。TODO 标记完成时，ROADMAP 对应条目不会自动推进，需要手动或通过 `plan clean` 之后统一更新。
+
 ### 2. 工具缺陷（已修 vs 未修）
 
 | 缺陷 | 状态 |
